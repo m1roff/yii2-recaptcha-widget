@@ -81,10 +81,10 @@ class ReCaptcha2 extends InputWidget
     public $jsErrorCallback;
 
     /** @var string */
-    public $configComponentName = 'reCaptcha';
+    public string $configComponentName = ReCaptchaConfig::COMPONENT_ID;
 
-    /** @var array Additional html widget options, such as `class`. */
-    public $widgetOptions = [];
+    /** Additional html widget options, such as `class`. */
+    public array $widgetOptions = [];
 
     public function __construct($siteKey = null, $jsApiUrl = null, $config = [])
     {

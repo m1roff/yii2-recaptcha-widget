@@ -7,11 +7,13 @@ namespace m1roff\yii2\recaptcha;
  */
 class ReCaptchaConfig
 {
-    const JS_API_URL_DEFAULT = '//www.google.com/recaptcha/api.js';
-    const JS_API_URL_ALTERNATIVE = '//www.recaptcha.net/recaptcha/api.js';
+    public const COMPONENT_ID = 'reCaptcha';
 
-    const SITE_VERIFY_URL_DEFAULT = 'https://www.google.com/recaptcha/api/siteverify';
-    const SITE_VERIFY_URL_ALTERNATIVE = 'https://www.recaptcha.net/recaptcha/api/siteverify';
+    public const JS_API_URL_DEFAULT = '//www.google.com/recaptcha/api.js';
+    public const JS_API_URL_ALTERNATIVE = '//www.recaptcha.net/recaptcha/api.js';
+
+    public const SITE_VERIFY_URL_DEFAULT = 'https://www.google.com/recaptcha/api/siteverify';
+    public const SITE_VERIFY_URL_ALTERNATIVE = 'https://www.recaptcha.net/recaptcha/api/siteverify';
 
     /** @var string Your sitekey for reCAPTCHA v2. */
     public $siteKeyV2;

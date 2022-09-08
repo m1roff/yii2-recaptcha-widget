@@ -54,8 +54,7 @@ class ReCaptcha3 extends InputWidget
     /** @var string Your JS callback function that's executed when reCAPTCHA executed. */
     public $jsCallback;
 
-    /** @var string */
-    public $configComponentName = 'reCaptcha';
+    public string $configComponentName = ReCaptchaConfig::COMPONENT_ID;
 
     public function __construct($siteKey = null, $jsApiUrl = null, $config = [])
     {

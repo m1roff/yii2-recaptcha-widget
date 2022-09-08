@@ -25,7 +25,7 @@ If a siteKey or secret is set in an individual view or validation rule that woul
 
 ```php
 'components' => [
-    'reCaptcha' => [
+    ReCaptchaConfig::COMPONENT_ID => [
         'class' => ReCaptchaConfig::class,
         'siteKeyV2' => 'your siteKey v2',
         'secretV2' => 'your secret key v2',
