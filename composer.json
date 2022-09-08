@@ -1,0 +1,40 @@
+{
+    "name": "m1roff/yii2-recaptcha-widget",
+    "description": "Yii2 Google reCAPTCHA v2 and v3 widget",
+    "keywords": ["yii2", "captcha", "recaptcha", "google", "widget"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/m1roff/yii2-recaptcha-widget",
+        "issues": "https://github.com/m1roff/yii2-recaptcha-widget/issues"
+    },
+    "require": {
+        "php": "^8.0",
+        "yiisoft/yii2": "^2.0.20",
+        "yiisoft/yii2-httpclient": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "m1roff\\yii2\\recaptcha\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "m1roff\\yii2\\recaptcha\\tests\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.10"
+    }
+}
